@@ -13,19 +13,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.Common", "Modir
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.Log", "ModirOnline.Log", "{6F6B725B-9160-4995-AECD-8852208428B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Persistence", "Src\ModirOnline.Log\ModirOnline.Log.Persistence\ModirOnline.Log.Persistence.csproj", "{E7B7700C-3464-42D2-BDE2-312F5473BDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Persistence", "Src\ModirOnline.Log\ModirOnline.Log.Persistence\ModirOnline.Log.Persistence.csproj", "{E7B7700C-3464-42D2-BDE2-312F5473BDD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Application", "Src\ModirOnline.Log\ModirOnline.Log.Application\ModirOnline.Log.Application.csproj", "{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Application", "Src\ModirOnline.Log\ModirOnline.Log.Application\ModirOnline.Log.Application.csproj", "{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Infra", "Src\ModirOnline.Log\ModirOnline.Log.Infra\ModirOnline.Log.Infra.csproj", "{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Infra", "Src\ModirOnline.Log\ModirOnline.Log.Infra\ModirOnline.Log.Infra.csproj", "{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Common", "Src\ModirOnline.Log\ModirOnline.Log.Common\ModirOnline.Log.Common.csproj", "{68FE6BC9-1985-4510-99C8-38295623E6CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Common", "Src\ModirOnline.Log\ModirOnline.Log.Common\ModirOnline.Log.Common.csproj", "{68FE6BC9-1985-4510-99C8-38295623E6CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Api", "Src\ModirOnline.Log\ModirOnline.Log.Api\ModirOnline.Log.Api.csproj", "{D6301770-9E6B-4959-9082-A4DF63919AD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Api", "Src\ModirOnline.Log\ModirOnline.Log.Api\ModirOnline.Log.Api.csproj", "{D6301770-9E6B-4959-9082-A4DF63919AD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Common", "Src\ModirOnline.Common\ModirOnline.Common\ModirOnline.Common.csproj", "{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Common", "Src\ModirOnline.Common\ModirOnline.Common\ModirOnline.Common.csproj", "{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Domain", "Src\ModirOnline.Log\ModirOnline.Log.Domain\ModirOnline.Log.Domain.csproj", "{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Domain", "Src\ModirOnline.Log\ModirOnline.Log.Domain\ModirOnline.Log.Domain.csproj", "{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.Inventory", "ModirOnline.Inventory", "{1380F77E-1AC2-4FED-A759-4DDBDF28E6F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.ProductManagement", "ModirOnline.ProductManagement", "{A8AC5B6C-7F23-4D75-832B-9536F0A11646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Common", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\ModirOnlline.ProductManagement.Common.csproj", "{725F4C05-2E9B-4874-9817-533E151E9247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Application", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Application\ModirOnlline.ProductManagement.Application.csproj", "{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Infra", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Infra\ModirOnlline.ProductManagement.Infra.csproj", "{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Domain", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\ModirOnlline.ProductManagement.Domain.csproj", "{D33A53F1-5485-4768-AE55-4DE112F4187A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Persistence", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\ModirOnlline.ProductManagement.Persistence.csproj", "{508FF1ED-637B-47A1-AA26-36187032304F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Api", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Api\ModirOnlline.ProductManagement.Api.csproj", "{58C33738-EA74-4727-A3BC-308D1E045D72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +77,30 @@ Global
 		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725F4C05-2E9B-4874-9817-533E151E9247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725F4C05-2E9B-4874-9817-533E151E9247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725F4C05-2E9B-4874-9817-533E151E9247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725F4C05-2E9B-4874-9817-533E151E9247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33A53F1-5485-4768-AE55-4DE112F4187A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33A53F1-5485-4768-AE55-4DE112F4187A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33A53F1-5485-4768-AE55-4DE112F4187A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33A53F1-5485-4768-AE55-4DE112F4187A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508FF1ED-637B-47A1-AA26-36187032304F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508FF1ED-637B-47A1-AA26-36187032304F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508FF1ED-637B-47A1-AA26-36187032304F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508FF1ED-637B-47A1-AA26-36187032304F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C33738-EA74-4727-A3BC-308D1E045D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C33738-EA74-4727-A3BC-308D1E045D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C33738-EA74-4727-A3BC-308D1E045D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C33738-EA74-4727-A3BC-308D1E045D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +115,14 @@ Global
 		{D6301770-9E6B-4959-9082-A4DF63919AD7} = {6F6B725B-9160-4995-AECD-8852208428B6}
 		{2DE70FBE-9365-49D2-A186-6CB55C69ABC2} = {D602AAE5-BCDC-4C6E-9646-687611F81A5A}
 		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6} = {6F6B725B-9160-4995-AECD-8852208428B6}
+		{1380F77E-1AC2-4FED-A759-4DDBDF28E6F7} = {C2CD8664-4CC7-45AD-9623-571357240DDE}
+		{A8AC5B6C-7F23-4D75-832B-9536F0A11646} = {C2CD8664-4CC7-45AD-9623-571357240DDE}
+		{725F4C05-2E9B-4874-9817-533E151E9247} = {A8AC5B6C-7F23-4D75-832B-9536F0A11646}
+		{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A} = {A8AC5B6C-7F23-4D75-832B-9536F0A11646}
+		{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB} = {A8AC5B6C-7F23-4D75-832B-9536F0A11646}
+		{D33A53F1-5485-4768-AE55-4DE112F4187A} = {A8AC5B6C-7F23-4D75-832B-9536F0A11646}
+		{508FF1ED-637B-47A1-AA26-36187032304F} = {A8AC5B6C-7F23-4D75-832B-9536F0A11646}
+		{58C33738-EA74-4727-A3BC-308D1E045D72} = {A8AC5B6C-7F23-4D75-832B-9536F0A11646}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CEDECCD-AD01-406B-8E4F-C27B3C15C28C}
