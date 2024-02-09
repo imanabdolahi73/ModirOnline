@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{C2CD8664-4CC7-45AD-9623-571357240DDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{A5950A65-851C-41A1-B874-D86F2ED60042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A6B0A3E7-24F3-4700-9ED4-B1EA02A83120}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.Common", "ModirOnline.Common", "{D602AAE5-BCDC-4C6E-9646-687611F81A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.Log", "ModirOnline.Log", "{6F6B725B-9160-4995-AECD-8852208428B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Persistence", "Src\ModirOnline.Log\ModirOnline.Log.Persistence\ModirOnline.Log.Persistence.csproj", "{E7B7700C-3464-42D2-BDE2-312F5473BDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Application", "Src\ModirOnline.Log\ModirOnline.Log.Application\ModirOnline.Log.Application.csproj", "{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Infra", "Src\ModirOnline.Log\ModirOnline.Log.Infra\ModirOnline.Log.Infra.csproj", "{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Common", "Src\ModirOnline.Log\ModirOnline.Log.Common\ModirOnline.Log.Common.csproj", "{68FE6BC9-1985-4510-99C8-38295623E6CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Api", "Src\ModirOnline.Log\ModirOnline.Log.Api\ModirOnline.Log.Api.csproj", "{D6301770-9E6B-4959-9082-A4DF63919AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Common", "Src\ModirOnline.Common\ModirOnline.Common\ModirOnline.Common.csproj", "{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnline.Log.Domain", "Src\ModirOnline.Log\ModirOnline.Log.Domain\ModirOnline.Log.Domain.csproj", "{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7B7700C-3464-42D2-BDE2-312F5473BDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B7700C-3464-42D2-BDE2-312F5473BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B7700C-3464-42D2-BDE2-312F5473BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B7700C-3464-42D2-BDE2-312F5473BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D7655B-3584-4379-9B5A-2A71CFE1D1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FE6BC9-1985-4510-99C8-38295623E6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FE6BC9-1985-4510-99C8-38295623E6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FE6BC9-1985-4510-99C8-38295623E6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FE6BC9-1985-4510-99C8-38295623E6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6301770-9E6B-4959-9082-A4DF63919AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6301770-9E6B-4959-9082-A4DF63919AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6301770-9E6B-4959-9082-A4DF63919AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6301770-9E6B-4959-9082-A4DF63919AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE70FBE-9365-49D2-A186-6CB55C69ABC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D602AAE5-BCDC-4C6E-9646-687611F81A5A} = {C2CD8664-4CC7-45AD-9623-571357240DDE}
+		{6F6B725B-9160-4995-AECD-8852208428B6} = {C2CD8664-4CC7-45AD-9623-571357240DDE}
+		{E7B7700C-3464-42D2-BDE2-312F5473BDD0} = {6F6B725B-9160-4995-AECD-8852208428B6}
+		{47D7655B-3584-4379-9B5A-2A71CFE1D1D0} = {6F6B725B-9160-4995-AECD-8852208428B6}
+		{003A8C12-6DC6-484F-AC2C-ABB7DE32CDB3} = {6F6B725B-9160-4995-AECD-8852208428B6}
+		{68FE6BC9-1985-4510-99C8-38295623E6CE} = {6F6B725B-9160-4995-AECD-8852208428B6}
+		{D6301770-9E6B-4959-9082-A4DF63919AD7} = {6F6B725B-9160-4995-AECD-8852208428B6}
+		{2DE70FBE-9365-49D2-A186-6CB55C69ABC2} = {D602AAE5-BCDC-4C6E-9646-687611F81A5A}
+		{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6} = {6F6B725B-9160-4995-AECD-8852208428B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CEDECCD-AD01-406B-8E4F-C27B3C15C28C}
+	EndGlobalSection
+EndGlobal
