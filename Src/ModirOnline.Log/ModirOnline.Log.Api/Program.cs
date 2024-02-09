@@ -1,5 +1,16 @@
-var builder = WebApplication.CreateBuilder(args);
 
+
+using ModirOnline.Log.Application.Interface;
+using ModirOnline.Log.Persistence;
+using ModirOnline.Log.Persistence.Context;
+
+var builder = WebApplication.CreateBuilder(args);
+var databaseSettings = builder.Configuration.GetSection("DatabaseSettings").Get<DatabaseSetting>();
+
+
+builder.Services.AddSingleton(databaseSettings);
+
+builder.Services.AddScoped<IDataBaseContext, DataBaseContext>();
 // Add services to the container.
 
 builder.Services.AddControllers();
