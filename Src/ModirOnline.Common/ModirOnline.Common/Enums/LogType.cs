@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModirOnline.Common.Enum
+namespace ModirOnline.Common.Enums
 {
     public enum LogType
     {
