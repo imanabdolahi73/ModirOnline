@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ModirOnline.Log.Application\ModirOnline.Log.Application.csproj" />
     <ProjectReference Include="..\ModirOnline.Log.Persistence\ModirOnline.Log.Persistence.csproj" />
   </ItemGroup>
