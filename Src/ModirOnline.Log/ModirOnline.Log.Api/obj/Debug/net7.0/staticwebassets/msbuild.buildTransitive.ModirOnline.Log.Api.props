@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ModirOnline.Log.Api.props" />
+</Project>
