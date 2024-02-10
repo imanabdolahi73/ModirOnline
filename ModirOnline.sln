@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{C2CD8664-4CC7-45AD-9623-571357240DDE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{A5950A65-851C-41A1-B874-D86F2ED60042}"
+	ProjectSection(SolutionItems) = preProject
+		001Log.txt = 001Log.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A6B0A3E7-24F3-4700-9ED4-B1EA02A83120}"
 EndProject
