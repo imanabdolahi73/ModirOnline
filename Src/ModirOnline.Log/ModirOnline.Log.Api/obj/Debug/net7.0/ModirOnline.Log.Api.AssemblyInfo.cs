@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModirOnline.Log.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7667ea340d45099b1089f746399aac5c5c1f9626")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+873f9ae814916c7a2190ad8a26ed99394e113c7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModirOnline.Log.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModirOnline.Log.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
