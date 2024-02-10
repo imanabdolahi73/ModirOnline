@@ -1,0 +1,18 @@
+name: dockercompose11540984655745508182
+services:
+  modironline.log.api:
+    build:
+      context: E:\ModirOnline\ModirOnline
+      dockerfile: Src/ModirOnline.Log/ModirOnline.Log.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: modironlinelogapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose11540984655745508182_default

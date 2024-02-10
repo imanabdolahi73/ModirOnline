@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1mmuYI+5kak0Ck6F1g3doYvNRo6YYCHpedVTaTpfcXk=",
+  "Source": "ModirOnline.Log.Api",
+  "BasePath": "_content/ModirOnline.Log.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
