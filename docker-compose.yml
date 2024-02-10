@@ -1,10 +1,12 @@
 version: '3.4'
 
 services:
-  modironline.log.DB:
+  modironline.log.db:
     image: mongo
   modironline.log.api:
     image: ${DOCKER_REGISTRY-}modironlinelogapi
     build:
       context: .
       dockerfile: Src/ModirOnline.Log/ModirOnline.Log.Api/Dockerfile
+volumes:
+  mongo_data:
