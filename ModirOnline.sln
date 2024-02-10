@@ -46,7 +46,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Api", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Api\ModirOnlline.ProductManagement.Api.csproj", "{58C33738-EA74-4727-A3BC-308D1E045D72}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{577F2C2F-2548-4D47-9FAF-FAFD518E8661}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6FC937FA-BF88-4B67-B852-F22C25446435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,10 +106,10 @@ Global
 		{58C33738-EA74-4727-A3BC-308D1E045D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58C33738-EA74-4727-A3BC-308D1E045D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58C33738-EA74-4727-A3BC-308D1E045D72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{577F2C2F-2548-4D47-9FAF-FAFD518E8661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{577F2C2F-2548-4D47-9FAF-FAFD518E8661}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{577F2C2F-2548-4D47-9FAF-FAFD518E8661}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{577F2C2F-2548-4D47-9FAF-FAFD518E8661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC937FA-BF88-4B67-B852-F22C25446435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC937FA-BF88-4B67-B852-F22C25446435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC937FA-BF88-4B67-B852-F22C25446435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC937FA-BF88-4B67-B852-F22C25446435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

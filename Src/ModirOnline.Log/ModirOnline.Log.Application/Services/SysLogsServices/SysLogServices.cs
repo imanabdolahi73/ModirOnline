@@ -40,13 +40,14 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
             catch (Exception)
             {
+                
                 return new ApiResult
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,
                     Message = Alert.Public.ServerException.GetDescription()
                 };
-                // ersal email e or throw execption
+                //ersal email e or throw execption
             }
         }
 
