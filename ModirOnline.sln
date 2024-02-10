@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{C2CD8664-4CC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{A5950A65-851C-41A1-B874-D86F2ED60042}"
 	ProjectSection(SolutionItems) = preProject
-		001Log.txt = 001Log.txt
+		Doc\001logs.txt = Doc\001logs.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A6B0A3E7-24F3-4700-9ED4-B1EA02A83120}"
@@ -34,17 +34,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.Inventory", "Mo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline.ProductManagement", "ModirOnline.ProductManagement", "{A8AC5B6C-7F23-4D75-832B-9536F0A11646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Common", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\ModirOnlline.ProductManagement.Common.csproj", "{725F4C05-2E9B-4874-9817-533E151E9247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Common", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\ModirOnlline.ProductManagement.Common.csproj", "{725F4C05-2E9B-4874-9817-533E151E9247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Application", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Application\ModirOnlline.ProductManagement.Application.csproj", "{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Application", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Application\ModirOnlline.ProductManagement.Application.csproj", "{CCB594E7-E714-49D2-8FDF-36CC09D8BB5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Infra", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Infra\ModirOnlline.ProductManagement.Infra.csproj", "{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Infra", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Infra\ModirOnlline.ProductManagement.Infra.csproj", "{AB5287D3-78D7-4B0E-86EC-AF40B99E9FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Domain", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\ModirOnlline.ProductManagement.Domain.csproj", "{D33A53F1-5485-4768-AE55-4DE112F4187A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Domain", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\ModirOnlline.ProductManagement.Domain.csproj", "{D33A53F1-5485-4768-AE55-4DE112F4187A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Persistence", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\ModirOnlline.ProductManagement.Persistence.csproj", "{508FF1ED-637B-47A1-AA26-36187032304F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Persistence", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\ModirOnlline.ProductManagement.Persistence.csproj", "{508FF1ED-637B-47A1-AA26-36187032304F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModirOnlline.ProductManagement.Api", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Api\ModirOnlline.ProductManagement.Api.csproj", "{58C33738-EA74-4727-A3BC-308D1E045D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Api", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Api\ModirOnlline.ProductManagement.Api.csproj", "{58C33738-EA74-4727-A3BC-308D1E045D72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

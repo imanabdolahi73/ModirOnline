@@ -153,7 +153,6 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     LogType = syslog.LogType,
                     Message = syslog.Message,
                     UserId = syslog.UserId,
-                    TotalCount=1
                 };
                 return new ApiResult<OutPutSysLogDto>
                 {
@@ -191,19 +190,24 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             try
             {
                 var SysLogs=await _context.SysLogs.Find(p=>true).ToListAsync();
-                IEnumerable<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
-                SysLogs.Select(p => new OutPutSysLogDto{
-                    StackTrace = p.StackTrace,
-                    ClassName=p.ClassName,
-                    FunctionName=p.FunctionName,
-                    Id = p.Id,
-                    InnerException = p.InnerException,
-                    InsertDateTime = DateTime.Now,
-                    LogType=p.LogType,
-                    Message = p.Message,
-                    UserId=p.UserId,
-                    TotalCount= SysLogs.Count()
-                });
+                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                foreach (var SysLog in SysLogs)
+                {
+                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    {
+                        StackTrace = SysLog.StackTrace,
+                        ClassName = SysLog.ClassName,
+                        FunctionName = SysLog.FunctionName,
+                        Id = SysLog.Id,
+                        InnerException = SysLog.InnerException,
+                        InsertDateTime = DateTime.Now,
+                        LogType = SysLog.LogType,
+                        Message = SysLog.Message,
+                        UserId = SysLog.UserId,
+                    };
+                    outPutSysLogDtos.Add(outPutSysLogDto);
+                }
+
                 return new ApiResult<IEnumerable<OutPutSysLogDto>>
                 {
                     IsSuccess = true,
@@ -241,20 +245,23 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             {
                 FilterDefinition<SysLog> filter = Builders<SysLog>.Filter.Eq(p => p.ClassName, className);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                IEnumerable<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
-                syslogs.Select(p => new OutPutSysLogDto
-                        {
-                            StackTrace = p.StackTrace,
-                            ClassName = p.ClassName,
-                            FunctionName = p.FunctionName,
-                            Id = p.Id,
-                            InnerException = p.InnerException,
-                            InsertDateTime = DateTime.Now,
-                            LogType = p.LogType,
-                            Message = p.Message,
-                            UserId = p.UserId,
-                            TotalCount = syslogs.Count()
-                        });
+                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                foreach (var SysLog in syslogs)
+                {
+                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    {
+                        StackTrace = SysLog.StackTrace,
+                        ClassName = SysLog.ClassName,
+                        FunctionName = SysLog.FunctionName,
+                        Id = SysLog.Id,
+                        InnerException = SysLog.InnerException,
+                        InsertDateTime = DateTime.Now,
+                        LogType = SysLog.LogType,
+                        Message = SysLog.Message,
+                        UserId = SysLog.UserId,
+                    };
+                    outPutSysLogDtos.Add(outPutSysLogDto);
+                }
                 return new ApiResult<IEnumerable<OutPutSysLogDto>>
                 {
                     IsSuccess = true,
@@ -292,20 +299,23 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             {
                 FilterDefinition<SysLog> filter = Builders<SysLog>.Filter.Eq(p => p.FunctionName, functionName);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                IEnumerable<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
-                syslogs.Select(p => new OutPutSysLogDto
+                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                foreach (var SysLog in syslogs)
                 {
-                    StackTrace = p.StackTrace,
-                    ClassName = p.ClassName,
-                    FunctionName = p.FunctionName,
-                    Id = p.Id,
-                    InnerException = p.InnerException,
-                    InsertDateTime = DateTime.Now,
-                    LogType = p.LogType,
-                    Message = p.Message,
-                    UserId = p.UserId,
-                    TotalCount = syslogs.Count()
-                });
+                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    {
+                        StackTrace = SysLog.StackTrace,
+                        ClassName = SysLog.ClassName,
+                        FunctionName = SysLog.FunctionName,
+                        Id = SysLog.Id,
+                        InnerException = SysLog.InnerException,
+                        InsertDateTime = DateTime.Now,
+                        LogType = SysLog.LogType,
+                        Message = SysLog.Message,
+                        UserId = SysLog.UserId,
+                    };
+                    outPutSysLogDtos.Add(outPutSysLogDto);
+                }
                 return new ApiResult<IEnumerable<OutPutSysLogDto>>
                 {
                     IsSuccess = true,
@@ -343,20 +353,23 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             {
                 FilterDefinition<SysLog> filter=Builders<SysLog>.Filter.Eq(p=>p.LogType,logType);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                IEnumerable<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
-                syslogs.Select(p => new OutPutSysLogDto
+                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                foreach (var SysLog in syslogs)
                 {
-                    StackTrace = p.StackTrace,
-                    ClassName = p.ClassName,
-                    FunctionName = p.FunctionName,
-                    Id = p.Id,
-                    InnerException = p.InnerException,
-                    InsertDateTime = DateTime.Now,
-                    LogType = p.LogType,
-                    Message = p.Message,
-                    UserId = p.UserId,
-                    TotalCount = syslogs.Count()
-                });
+                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    {
+                        StackTrace = SysLog.StackTrace,
+                        ClassName = SysLog.ClassName,
+                        FunctionName = SysLog.FunctionName,
+                        Id = SysLog.Id,
+                        InnerException = SysLog.InnerException,
+                        InsertDateTime = DateTime.Now,
+                        LogType = SysLog.LogType,
+                        Message = SysLog.Message,
+                        UserId = SysLog.UserId,
+                    };
+                    outPutSysLogDtos.Add(outPutSysLogDto);
+                }
                 return new ApiResult<IEnumerable<OutPutSysLogDto>>
                 {
                     IsSuccess = true,
@@ -394,20 +407,23 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             {
                 FilterDefinition<SysLog> filter = Builders<SysLog>.Filter.Eq(p => p.InnerException, innerExeceptions);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                IEnumerable<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
-                syslogs.Select(p => new OutPutSysLogDto
+                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                foreach (var SysLog in syslogs)
                 {
-                    StackTrace = p.StackTrace,
-                    ClassName = p.ClassName,
-                    FunctionName = p.FunctionName,
-                    Id = p.Id,
-                    InnerException = p.InnerException,
-                    InsertDateTime = DateTime.Now,
-                    LogType = p.LogType,
-                    Message = p.Message,
-                    UserId = p.UserId,
-                    TotalCount = syslogs.Count()
-                });
+                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    {
+                        StackTrace = SysLog.StackTrace,
+                        ClassName = SysLog.ClassName,
+                        FunctionName = SysLog.FunctionName,
+                        Id = SysLog.Id,
+                        InnerException = SysLog.InnerException,
+                        InsertDateTime = DateTime.Now,
+                        LogType = SysLog.LogType,
+                        Message = SysLog.Message,
+                        UserId = SysLog.UserId,
+                    };
+                    outPutSysLogDtos.Add(outPutSysLogDto);
+                }
                 return new ApiResult<IEnumerable<OutPutSysLogDto>>
                 {
                     IsSuccess = true,
