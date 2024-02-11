@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModirOnlline.ProductManagement.Common\ModirOnlline.ProductManagement.Common.csproj" />
-    <ProjectReference Include="..\ModirOnlline.ProductManagement.Persistence\ModirOnlline.ProductManagement.Persistence.csproj" />
+    <ProjectReference Include="..\ModirOnline.ProductManagement.Common\ModirOnline.ProductManagement.Common.csproj" />
+    <ProjectReference Include="..\ModirOnline.ProductManagement.Persistence\ModirOnline.ProductManagement.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

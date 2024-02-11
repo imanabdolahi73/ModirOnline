@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModirOnlline.ProductManagement.Domain\ModirOnlline.ProductManagement.Domain.csproj" />
+    <ProjectReference Include="..\ModirOnline.ProductManagement.Domain\ModirOnline.ProductManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>

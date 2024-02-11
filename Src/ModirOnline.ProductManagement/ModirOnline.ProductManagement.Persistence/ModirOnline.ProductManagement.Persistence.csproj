@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModirOnlline.ProductManagement.Application\ModirOnlline.ProductManagement.Application.csproj" />
+    <ProjectReference Include="..\ModirOnline.ProductManagement.Application\ModirOnline.ProductManagement.Application.csproj" />
   </ItemGroup>
 
 </Project>
