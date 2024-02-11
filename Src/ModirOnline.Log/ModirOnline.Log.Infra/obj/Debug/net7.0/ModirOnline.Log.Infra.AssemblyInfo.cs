@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModirOnline.Log.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c06dcf0feb4e602184cef9693ed8e89c983b4c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e084a6913928bff30d0bfff61defa261494c2ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModirOnline.Log.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModirOnline.Log.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

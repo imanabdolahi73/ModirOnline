@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModirOnlline.ProductManagement.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b3e39f153e6898d6a40a1a7550d90f7ec6b604e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e084a6913928bff30d0bfff61defa261494c2ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModirOnlline.ProductManagement.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModirOnlline.ProductManagement.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

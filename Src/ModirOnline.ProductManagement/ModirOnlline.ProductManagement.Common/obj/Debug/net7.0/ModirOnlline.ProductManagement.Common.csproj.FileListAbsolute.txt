@@ -1,0 +1,12 @@
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\bin\Debug\net7.0\ModirOnlline.ProductManagement.Common.deps.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\bin\Debug\net7.0\ModirOnlline.ProductManagement.Common.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\bin\Debug\net7.0\ModirOnlline.ProductManagement.Common.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.AssemblyInfoInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.AssemblyInfo.cs
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.csproj.CoreCompileInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.sourcelink.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\refint\ModirOnlline.ProductManagement.Common.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ModirOnlline.ProductManagement.Common.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\obj\Debug\net7.0\ref\ModirOnlline.ProductManagement.Common.dll
