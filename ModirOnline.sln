@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Common", "Src\M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnline.Log.Domain", "Src\ModirOnline.Log\ModirOnline.Log.Domain\ModirOnline.Log.Domain.csproj", "{5DEBD734-D8A1-4671-B85B-C2E57AEBCCA6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnline", "ModirOnline", "{A8AC5B6C-7F23-4D75-832B-9536F0A11646}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModirOnlline.ProductManagement", "ModirOnlline.ProductManagement", "{A8AC5B6C-7F23-4D75-832B-9536F0A11646}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModirOnlline.ProductManagement.Common", "Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Common\ModirOnlline.ProductManagement.Common.csproj", "{725F4C05-2E9B-4874-9817-533E151E9247}"
 EndProject
