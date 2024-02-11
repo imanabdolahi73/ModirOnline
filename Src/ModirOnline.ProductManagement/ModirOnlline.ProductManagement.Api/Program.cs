@@ -1,9 +1,25 @@
+using Microsoft.EntityFrameworkCore;
+using ModirOnline.ProductManagement.Persistence.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+var environment = builder.Environment;
+
+var configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .Build();
+
+var connectionString = environment.IsDevelopment() ?
+    configuration.GetConnectionString("DebugConnection") :
+    configuration.GetConnectionString("ProductConnection");
+
+builder.Services.AddDbContext<DbContextProductManagment>(options =>
+    options.UseSqlServer(connectionString));
+
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
