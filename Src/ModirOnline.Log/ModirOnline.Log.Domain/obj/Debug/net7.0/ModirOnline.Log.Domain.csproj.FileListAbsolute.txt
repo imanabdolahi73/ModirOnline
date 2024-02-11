@@ -1,0 +1,16 @@
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\bin\Debug\net7.0\ModirOnline.Log.Domain.deps.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\bin\Debug\net7.0\ModirOnline.Log.Domain.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\bin\Debug\net7.0\ModirOnline.Log.Domain.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\bin\Debug\net7.0\ModirOnline.Common.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\bin\Debug\net7.0\ModirOnline.Common.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.csproj.AssemblyReference.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.AssemblyInfoInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.AssemblyInfo.cs
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.csproj.CoreCompileInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.sourcelink.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.csproj.CopyComplete
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\refint\ModirOnline.Log.Domain.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ModirOnline.Log.Domain.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.Log\ModirOnline.Log.Domain\obj\Debug\net7.0\ref\ModirOnline.Log.Domain.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModirOnline.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85c6e0ff78a11ee17369cb62ecd4af5f08677b98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b3e39f153e6898d6a40a1a7550d90f7ec6b604e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModirOnline.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModirOnline.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

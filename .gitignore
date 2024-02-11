@@ -25,6 +25,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+Debug\net7.0/
+Release\net7.0/
+net7.0/
+
 
 # Visual Studio 2015 cache/options directory
 .vs/
