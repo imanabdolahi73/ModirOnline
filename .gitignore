@@ -358,3 +358,16 @@ documentation/
 /Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Persistence/obj/ModirOnlline.ProductManagement.Persistence.csproj.nuget.dgspec.json
 /Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Persistence/obj/ModirOnlline.ProductManagement.Persistence.csproj.nuget.g.props
 /Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Persistence/obj/project.assets.json
+/Src/ModirOnline.Common/ModirOnline.Common/obj/Debug/net7.0/
+/Src/ModirOnline.Log/ModirOnline.Log.Api/obj/Debug/net7.0/ModirOnline.Log.Api.csproj.FileListAbsolute.txt
+/Src/ModirOnline.Log/ModirOnline.Log.Application/obj/Debug/net7.0/ModirOnline.Log.Application.csproj.FileListAbsolute.txt
+/Src/ModirOnline.Log/ModirOnline.Log.Common/obj/Debug/net7.0/ModirOnline.Log.Common.csproj.FileListAbsolute.txt
+/Src/ModirOnline.Log/ModirOnline.Log.Domain/obj/Debug/net7.0/ModirOnline.Log.Domain.csproj.FileListAbsolute.txt
+/Src/ModirOnline.Log/ModirOnline.Log.Infra/obj/Debug/net7.0/ModirOnline.Log.Infra.csproj.FileListAbsolute.txt
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Api/obj/Debug/net7.0/ModirOnlline.ProductManagement.Api.csproj.FileListAbsolute.txt
+/Src/ModirOnline.Log/ModirOnline.Log.Persistence/obj/Debug/net7.0/ModirOnline.Log.Persistence.csproj.FileListAbsolute.txt
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Application/obj/Debug/net7.0/ModirOnlline.ProductManagement.Application.csproj.FileListAbsolute.txt
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Common/obj/Debug/net7.0/ModirOnlline.ProductManagement.Common.csproj.FileListAbsolute.txt
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Domain/obj/Debug/net7.0/ModirOnlline.ProductManagement.Domain.csproj.FileListAbsolute.txt
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Infra/obj/Debug/net7.0/ModirOnlline.ProductManagement.Infra.csproj.FileListAbsolute.txt
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Persistence/obj/Debug/net7.0/ModirOnlline.ProductManagement.Persistence.csproj.FileListAbsolute.txt
