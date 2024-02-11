@@ -13,9 +13,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+obj/Debug/net7.0/
 # Build results
-[Oo]bj/[Dd]ebug/net7.0/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -28,7 +27,7 @@ bld/
 [Ll]og/
 Debug\net7.0/
 Release\net7.0/
-net7.0/
+[Nn]et7.0/
 [Oo]bj
 
 # Visual Studio 2015 cache/options directory
