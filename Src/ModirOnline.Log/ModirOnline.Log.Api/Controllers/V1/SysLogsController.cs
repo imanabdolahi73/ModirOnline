@@ -16,15 +16,15 @@ namespace ModirOnline.Log.Api.Controllers.V1
         {
             _syslog = sysLogServices;
         }
-        [HttpPost("InputSysLogsDto")]
-        public async Task<ActionResult<ApiResult>> CreateLog(InputSysLogsDto InputSysLogsDto)
+        [HttpPost("InsertSysLogInputDto")]
+        public async Task<ActionResult<ApiResult>> CreateLog(InsertSysLogInputDto InputSysLogsDto)
         {
             var result =await _syslog.CreateSysLog(InputSysLogsDto);
             Response.StatusCode = result.StatusCode;
            return result;
         }
         [HttpGet]
-        public async Task<ActionResult<ApiResult<IEnumerable<OutPutSysLogDto>>>> GetLogs()
+        public async Task<ActionResult<ApiResult<IEnumerable<SysLogOutputDto>>>> GetLogs()
         {
             var result=await _syslog.GetSyslogs();
             Response.StatusCode = result.StatusCode;
@@ -46,7 +46,7 @@ namespace ModirOnline.Log.Api.Controllers.V1
             return result;
         }
         [HttpGet("className")]
-        public async Task<ActionResult<ApiResult<IEnumerable<OutPutSysLogDto>>>> GetLogsFromClassName(string className)
+        public async Task<ActionResult<ApiResult<IEnumerable<SysLogOutputDto>>>> GetLogsFromClassName(string className)
         {
             var result=await _syslog.GetSysLogsByClassName(className);
             Response.StatusCode = result.StatusCode;
@@ -54,7 +54,7 @@ namespace ModirOnline.Log.Api.Controllers.V1
             return result;
         }
         [HttpGet("functionName")]
-        public async Task<ActionResult<ApiResult<IEnumerable<OutPutSysLogDto>>>> GetLogsFromfunctionName(string functionName)
+        public async Task<ActionResult<ApiResult<IEnumerable<SysLogOutputDto>>>> GetLogsFromfunctionName(string functionName)
         {
             var result = await _syslog.GetSysLogsByFunctionName(functionName);
             Response.StatusCode = result.StatusCode;
@@ -62,7 +62,7 @@ namespace ModirOnline.Log.Api.Controllers.V1
             return result;
         }
         [HttpGet("logType")]
-        public async Task<ActionResult<ApiResult<IEnumerable<OutPutSysLogDto>>>> GetLogsFromLogType(LogType logType)
+        public async Task<ActionResult<ApiResult<IEnumerable<SysLogOutputDto>>>> GetLogsFromLogType(LogType logType)
         {
             var result = await _syslog.GetSysLogsByLogType(logType);
             Response.StatusCode = result.StatusCode;
@@ -70,7 +70,7 @@ namespace ModirOnline.Log.Api.Controllers.V1
             return result;
         }
         [HttpGet("innerExeceptions")]
-        public async Task<ActionResult<ApiResult<IEnumerable<OutPutSysLogDto>>>> GetLogsFromInnerExeceptions(string innerExeceptions)
+        public async Task<ActionResult<ApiResult<IEnumerable<SysLogOutputDto>>>> GetLogsFromInnerExeceptions(string innerExeceptions)
         {
             var result = await _syslog.InnerExeceptions(innerExeceptions);
             Response.StatusCode = result.StatusCode;
@@ -78,7 +78,7 @@ namespace ModirOnline.Log.Api.Controllers.V1
             return result;
         }
         [HttpGet("id")]
-        public async Task<ActionResult<ApiResult<OutPutSysLogDto>>> GetLogsFromId(string id)
+        public async Task<ActionResult<ApiResult<SysLogOutputDto>>> GetLogsFromId(string id)
         {
             var result = await _syslog.GetSyslog(id);
             Response.StatusCode = result.StatusCode;

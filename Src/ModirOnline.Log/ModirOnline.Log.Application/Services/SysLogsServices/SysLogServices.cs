@@ -16,7 +16,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
         {
             _context=context;
         }
-        public async Task<ApiResult> CreateSysLog(InputSysLogsDto req)
+        public async Task<ApiResult> CreateSysLog(InsertSysLogInputDto req)
         {
             try
             {
@@ -71,7 +71,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -109,7 +109,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
             catch (Exception e)
             {
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -129,21 +129,21 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
         }
 
-        public async Task<ApiResult<OutPutSysLogDto>> GetSyslog(string id)
+        public async Task<ApiResult<SysLogOutputDto>> GetSyslog(string id)
         {
             try
             {
                 var syslog = await _context.SysLogs.Find(p => p.Id == id).FirstOrDefaultAsync();
                 if (syslog == null)
                 {
-                    return new ApiResult<OutPutSysLogDto>
+                    return new ApiResult<SysLogOutputDto>
                     {
                         IsSuccess = false,
                         StatusCode = (int)HttpStatusCode.NotFound,
                         Message = Alert.Public.NotFound.GetDescription()
                     };
                 }
-                OutPutSysLogDto result = new OutPutSysLogDto()
+                SysLogOutputDto result = new SysLogOutputDto()
                 {
                     StackTrace = syslog.StackTrace,
                     FunctionName = syslog.FunctionName,
@@ -155,7 +155,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     Message = syslog.Message,
                     UserId = syslog.UserId,
                 };
-                return new ApiResult<OutPutSysLogDto>
+                return new ApiResult<SysLogOutputDto>
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.OK,
@@ -166,7 +166,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -177,7 +177,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     UserId = "Exception IN log Service",
                 };
                 await CreateSysLog(inputSysLogsDto);
-                return new ApiResult<OutPutSysLogDto>
+                return new ApiResult<SysLogOutputDto>
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,
@@ -186,15 +186,15 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
         }
 
-        public async Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSyslogs()
+        public async Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSyslogs()
         {
             try
             {
                 var SysLogs=await _context.SysLogs.Find(p=>true).ToListAsync();
-                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                List<SysLogOutputDto> outPutSysLogDtos = new List<SysLogOutputDto>();
                 foreach (var SysLog in SysLogs)
                 {
-                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    SysLogOutputDto outPutSysLogDto = new SysLogOutputDto()
                     {
                         StackTrace = SysLog.StackTrace,
                         ClassName = SysLog.ClassName,
@@ -209,7 +209,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     outPutSysLogDtos.Add(outPutSysLogDto);
                 }
 
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.OK,
@@ -220,7 +220,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -231,7 +231,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     UserId = "Exception IN log Service",
                 };
                 await CreateSysLog(inputSysLogsDto);
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,
@@ -240,16 +240,16 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
         }
 
-        public async Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSysLogsByClassName(string className)
+        public async Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSysLogsByClassName(string className)
         {
             try
             {
                 FilterDefinition<SysLog> filter = Builders<SysLog>.Filter.Eq(p => p.ClassName, className);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                List<SysLogOutputDto> outPutSysLogDtos = new List<SysLogOutputDto>();
                 foreach (var SysLog in syslogs)
                 {
-                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    SysLogOutputDto outPutSysLogDto = new SysLogOutputDto()
                     {
                         StackTrace = SysLog.StackTrace,
                         ClassName = SysLog.ClassName,
@@ -263,7 +263,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     };
                     outPutSysLogDtos.Add(outPutSysLogDto);
                 }
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.OK,
@@ -274,7 +274,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -285,7 +285,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     UserId = "Exception IN log Service",
                 };
                 await CreateSysLog(inputSysLogsDto);
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,
@@ -294,16 +294,16 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
         }
 
-        public async Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSysLogsByFunctionName(string functionName)
+        public async Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSysLogsByFunctionName(string functionName)
         {
             try
             {
                 FilterDefinition<SysLog> filter = Builders<SysLog>.Filter.Eq(p => p.FunctionName, functionName);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                List<SysLogOutputDto> outPutSysLogDtos = new List<SysLogOutputDto>();
                 foreach (var SysLog in syslogs)
                 {
-                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    SysLogOutputDto outPutSysLogDto = new SysLogOutputDto()
                     {
                         StackTrace = SysLog.StackTrace,
                         ClassName = SysLog.ClassName,
@@ -317,7 +317,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     };
                     outPutSysLogDtos.Add(outPutSysLogDto);
                 }
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.OK,
@@ -328,7 +328,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -339,7 +339,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     UserId = "Exception IN log Service",
                 };
                 await CreateSysLog(inputSysLogsDto);
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,
@@ -348,16 +348,16 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
         }
 
-        public async Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSysLogsByLogType(LogType logType)
+        public async Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSysLogsByLogType(LogType logType)
         {
             try
             {
                 FilterDefinition<SysLog> filter=Builders<SysLog>.Filter.Eq(p=>p.LogType,logType);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                List<SysLogOutputDto> outPutSysLogDtos = new List<SysLogOutputDto>();
                 foreach (var SysLog in syslogs)
                 {
-                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    SysLogOutputDto outPutSysLogDto = new SysLogOutputDto()
                     {
                         StackTrace = SysLog.StackTrace,
                         ClassName = SysLog.ClassName,
@@ -371,7 +371,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     };
                     outPutSysLogDtos.Add(outPutSysLogDto);
                 }
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.OK,
@@ -382,7 +382,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -393,7 +393,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     UserId = "Exception IN log Service",
                 };
                 await CreateSysLog(inputSysLogsDto);
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,
@@ -402,16 +402,16 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             }
         }
 
-        public async Task<ApiResult<IEnumerable<OutPutSysLogDto>>> InnerExeceptions(string innerExeceptions)
+        public async Task<ApiResult<IEnumerable<SysLogOutputDto>>> InnerExeceptions(string innerExeceptions)
         {
             try
             {
                 FilterDefinition<SysLog> filter = Builders<SysLog>.Filter.Eq(p => p.InnerException, innerExeceptions);
                 var syslogs = await _context.SysLogs.Find(filter).ToListAsync();
-                List<OutPutSysLogDto> outPutSysLogDtos = new List<OutPutSysLogDto>();
+                List<SysLogOutputDto> outPutSysLogDtos = new List<SysLogOutputDto>();
                 foreach (var SysLog in syslogs)
                 {
-                    OutPutSysLogDto outPutSysLogDto = new OutPutSysLogDto()
+                    SysLogOutputDto outPutSysLogDto = new SysLogOutputDto()
                     {
                         StackTrace = SysLog.StackTrace,
                         ClassName = SysLog.ClassName,
@@ -425,7 +425,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     };
                     outPutSysLogDtos.Add(outPutSysLogDto);
                 }
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.OK,
@@ -436,7 +436,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
             catch (Exception e)
             {
 
-                InputSysLogsDto inputSysLogsDto = new InputSysLogsDto()
+                InsertSysLogInputDto inputSysLogsDto = new InsertSysLogInputDto()
                 {
                     InnerException = e.InnerException.ToString(),
                     StackTrace = e.StackTrace,
@@ -447,7 +447,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     UserId = "Exception IN log Service",
                 };
                 await CreateSysLog(inputSysLogsDto);
-                return new ApiResult<IEnumerable<OutPutSysLogDto>>
+                return new ApiResult<IEnumerable<SysLogOutputDto>>
                 {
                     IsSuccess = false,
                     StatusCode = (int)HttpStatusCode.InternalServerError,

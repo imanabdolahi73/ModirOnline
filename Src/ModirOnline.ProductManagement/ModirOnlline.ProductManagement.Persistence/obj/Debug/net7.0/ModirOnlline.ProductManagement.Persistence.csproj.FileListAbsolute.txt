@@ -1,0 +1,16 @@
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\bin\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.deps.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\bin\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\bin\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\bin\Debug\net7.0\ModirOnlline.ProductManagement.Application.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\bin\Debug\net7.0\ModirOnlline.ProductManagement.Application.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.csproj.AssemblyReference.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.AssemblyInfoInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.AssemblyInfo.cs
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.csproj.CoreCompileInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.sourcelink.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.csproj.CopyComplete
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\refint\ModirOnlline.ProductManagement.Persistence.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ModirOnlline.ProductManagement.Persistence.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Persistence\obj\Debug\net7.0\ref\ModirOnlline.ProductManagement.Persistence.dll

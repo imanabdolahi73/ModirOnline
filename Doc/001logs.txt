@@ -1,8 +1,0 @@
-﻿sysLog  logs 
-{
-ساخت  ایمیج مانگو دیتا بیس در داکر با پورت 27018 
-docker run -d -p 27018:27017 --name MyMongoDB mongo
-
-
-
-}

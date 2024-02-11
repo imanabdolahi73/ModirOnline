@@ -11,13 +11,13 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
 {
     public interface ISysLogServices
     {
-        Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSyslogs();
-        Task<ApiResult<OutPutSysLogDto>> GetSyslog(string id);
-        Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSysLogsByClassName(string className);
-        Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSysLogsByFunctionName(string functionName);
-        Task<ApiResult<IEnumerable<OutPutSysLogDto>>> GetSysLogsByLogType(LogType logType);
-        Task<ApiResult<IEnumerable<OutPutSysLogDto>>> InnerExeceptions(string innerExeceptions);
-        Task<ApiResult> CreateSysLog(InputSysLogsDto req);
+        Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSyslogs();
+        Task<ApiResult<SysLogOutputDto>> GetSyslog(string id);
+        Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSysLogsByClassName(string className);
+        Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSysLogsByFunctionName(string functionName);
+        Task<ApiResult<IEnumerable<SysLogOutputDto>>> GetSysLogsByLogType(LogType logType);
+        Task<ApiResult<IEnumerable<SysLogOutputDto>>> InnerExeceptions(string innerExeceptions);
+        Task<ApiResult> CreateSysLog(InsertSysLogInputDto req);
         Task<ApiResult>DeleteSyslog(string id);
         Task<ApiResult> DeleteSyslogs();
     }
