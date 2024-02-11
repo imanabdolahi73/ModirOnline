@@ -2,10 +2,22 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/docker-compose.yml
-/docker-compose.override.yml
-/.vs/ModirOnline/FileContentIndex/bf101446-f5f3-4e87-b514-8b8d3a9d0728.vsidx
-/.vs/ModirOnline/FileContentIndex/d31e8ae1-6c09-4968-9399-a838dbd0bab8.vsidx
-/.vs/ModirOnline/FileContentIndex/7a0d85f6-1358-4a94-a146-72d7fd2f033a.vsidx
-/.vs/ModirOnline/FileContentIndex/5164b55c-e578-4721-a753-f3afa47d341b.vsidx
-/.vs/ModirOnline/FileContentIndex/0a3cfcca-266c-4aa5-b53b-913ef5b21554.vsidx
+/bin/Debug/ModirOnline.Log.Api.dll
+/bin/Debug/ModirOnline.Log.Api.exe
+/bin/Debug/ModirOnline.Log.Api.pdb
+/bin/Debug/ModirOnline.Log.Application.dll
+/bin/Debug/ModirOnline.Log.Application.pdb
+/bin/Debug/ModirOnline.Log.Persistence.dll
+/bin/Debug/ModirOnline.Log.Persistence.pdb
+/.vs/ModirOnline/DesignTimeBuild/.dtbcache.v2
+*.vsidx
+/.vs/ModirOnline/v17/.suo
+/.vs/ModirOnline/v17/.futdcache.v2
+/.vs/ProjectEvaluation/modironline.metadata.v7.bin
+/.vs/ProjectEvaluation/modironline.projects.v7.bin
+/mongo_data/diagnostic.data/metrics.2024-02-10T09-47-13Z-00000
+/mongo_data/diagnostic.data/metrics.2024-02-10T09-48-18Z-00000
+/mongo_data/diagnostic.data/metrics.2024-02-10T09-58-09Z-00000
+/Src/ModirOnline.Log/ModirOnline.Log.Api/bin/Debug/net7.0/ModirOnline.Log.Api.dll
+/Src/ModirOnline.Log/ModirOnline.Log.Api/bin/Debug/net7.0/ModirOnline.Log.Api.exe
+/Src/ModirOnline.Log/ModirOnline.Log.Api/bin/Debug/net7.0/ModirOnline.Log.Api.pdb
