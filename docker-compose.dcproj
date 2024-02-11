@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>6fc937fa-bf88-4b67-b852-f22c25446435</ProjectGuid>
+    <ProjectGuid>4b703d6f-d549-4eb8-b92b-007cc5fb8e59</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>modironline.log.api</DockerServiceName>
