@@ -371,3 +371,5 @@ documentation/
 /Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Domain/obj/Debug/net7.0/ModirOnlline.ProductManagement.Domain.csproj.FileListAbsolute.txt
 /Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Infra/obj/Debug/net7.0/ModirOnlline.ProductManagement.Infra.csproj.FileListAbsolute.txt
 /Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Persistence/obj/Debug/net7.0/ModirOnlline.ProductManagement.Persistence.csproj.FileListAbsolute.txt
+/Src/ModirOnline.Log/ModirOnline.Log.Api/obj/Debug/net7.0/apphost.exe
+/Src/ModirOnline.ProductManagement/ModirOnlline.ProductManagement.Api/obj/Debug/net7.0/apphost.exe
