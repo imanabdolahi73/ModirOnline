@@ -1,6 +1,7 @@
 
 
 using ModirOnline.Log.Application.Interface;
+using ModirOnline.Log.Application.Services.SysLogsServices;
 using ModirOnline.Log.Persistence;
 using ModirOnline.Log.Persistence.Context;
 
@@ -11,6 +12,7 @@ var databaseSettings = builder.Configuration.GetSection("DatabaseSettings").Get<
 builder.Services.AddSingleton(databaseSettings);
 
 builder.Services.AddScoped<IDataBaseContext, DataBaseContext>();
+builder.Services.AddScoped<ISysLogServices, SysLogServices>();
 // Add services to the container.
 
 builder.Services.AddControllers();

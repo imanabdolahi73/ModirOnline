@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  modironline.log.db:
+    container_name: modironline.logdb
+    restart: always
+    volumes:
+    - mongo_data:/data/db
+    ports:
+      - "27017:27017" 
+  modironline.log.api:
+    container_name: modironline.logapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "DatabaseSettings:ConnectionString=mongodb://modironline.log.db:27017" 
+    depends_on:
+      - modironline.log.db
+    ports:
+      - "8000:80"

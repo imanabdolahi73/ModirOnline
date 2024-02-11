@@ -1,0 +1,16 @@
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\bin\Debug\net7.0\ModirOnlline.ProductManagement.Domain.deps.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\bin\Debug\net7.0\ModirOnlline.ProductManagement.Domain.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\bin\Debug\net7.0\ModirOnlline.ProductManagement.Domain.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\bin\Debug\net7.0\ModirOnline.Common.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\bin\Debug\net7.0\ModirOnline.Common.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.csproj.AssemblyReference.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.AssemblyInfoInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.AssemblyInfo.cs
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.csproj.CoreCompileInputs.cache
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.sourcelink.json
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.csproj.CopyComplete
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\refint\ModirOnlline.ProductManagement.Domain.dll
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ModirOnlline.ProductManagement.Domain.pdb
+E:\ModirOnline\ModirOnline\Src\ModirOnline.ProductManagement\ModirOnlline.ProductManagement.Domain\obj\Debug\net7.0\ref\ModirOnlline.ProductManagement.Domain.dll

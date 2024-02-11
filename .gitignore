@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/aspnetcore
-# Edit at https://www.toptal.com/developers/gitignore?templates=aspnetcore
+﻿# Created by https://www.toptal.com/developers/gitignore/api/aspnetcore,compodoc
+# Edit at https://www.toptal.com/developers/gitignore?templates=aspnetcore,compodoc
 
 ### ASPNETCore ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -271,4 +271,10 @@ __pycache__/
 # Cake - Uncomment if you are using it
 # tools/
 
-# End of https://www.toptal.com/developers/gitignore/api/aspnetcore
+### Compodoc ###
+# gitignore template for the Compodoc, UI guide for front apps
+# website: https://compodoc.app/
+
+documentation/
+
+# End of https://www.toptal.com/developers/gitignore/api/aspnetcore,compodoc
