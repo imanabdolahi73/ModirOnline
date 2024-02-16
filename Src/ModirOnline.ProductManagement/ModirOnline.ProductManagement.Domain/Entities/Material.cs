@@ -1,4 +1,4 @@
-﻿using ModirOnline.Common.Dto;
+﻿using ModirOnline.Common.BaseClasses;
 using ModirOnline.Common.Enums;
 
 namespace ModirOnlline.ProductManagement.Domain.Entities
