@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModirOnline.Common.Dto
+namespace ModirOnline.Common.BaseClasses
 {
     public class BaseEntity<T>
     {
-        public T Id { get;set; }
+        public T Id { get; set; }
         public Guid InsertByUserId { get; set; }
         public DateTime InsertDateTime { get; set; } = DateTime.Now;
         public Guid? UpdateByUserId { get; set; }

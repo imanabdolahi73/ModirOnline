@@ -1,4 +1,6 @@
-﻿namespace ModirOnline.Common.Dto.ProductManagementDto.ProductCategoryDto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ModirOnline.Common.Dto.ProductManagementDto.ProductCategoryDto
 {
     public class ProductCategoryOutputDto
     {

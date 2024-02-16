@@ -7,6 +7,8 @@ namespace ModirOnline.Common.BaseInrerfaces
         where TOutputDto : class
         where TInsertInputDto : class
         where TUpdateInputDto : class
+        where TDeleteInputDto : class
+        where TGetAllInputDto : class
     {
         Task<ApiResult> InsertAsync(TInsertInputDto inputDto);
         Task<ApiResult> UpdateAsync(TUpdateInputDto inputDto);
