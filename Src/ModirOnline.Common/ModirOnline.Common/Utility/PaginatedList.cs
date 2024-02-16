@@ -23,7 +23,7 @@ namespace ModirOnline.Common.Utility
 
         public bool HasNextPage => PageIndex < TotalPages;
 
-        public static PaginatedList<T> Create(IQueryable<T> source, int pageIndex, int pageSize)
+        public static async Task<PaginatedList<T>> Create(IQueryable<T> source, int pageIndex, int pageSize)
         {
             int count = source.Count();
             List<T> items = source.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();

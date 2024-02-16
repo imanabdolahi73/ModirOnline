@@ -17,4 +17,6 @@ namespace ModirOnline.Common.Dto
         public DateTime? DeleteDateTime { get; set; }
         public bool IsDeleted { get; set; }
     }
+
+
 }

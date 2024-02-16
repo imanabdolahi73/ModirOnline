@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModirOnline.ProductManagement.Application.Interface
+namespace ModirOnline.ProductManagement.Application.Interfaces
 {
     public interface IDbContextProductManagement : IBaseDbContext
     {

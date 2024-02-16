@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using ModirOnline.ProductManagement.Application.Interfaces;
+using ModirOnline.ProductManagement.Application.Service;
 using ModirOnline.ProductManagement.Persistence.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +19,9 @@ var connectionString = environment.IsDevelopment() ?
 
 builder.Services.AddDbContext<DbContextProductManagment>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<IDbContextProductManagement, DbContextProductManagment>();
+builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
 
 builder.Services.AddControllers();
 

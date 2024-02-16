@@ -1,6 +1,6 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using ModirOnline.ProductManagement.Application.Interface;
+using ModirOnline.ProductManagement.Application.Interfaces;
 using ModirOnlline.ProductManagement.Domain.Entities;
 using System;
 using System.Collections.Generic;
