@@ -13,17 +13,19 @@ namespace ModirOnline.Common.Utility
         {
             [Description("لاگ")]
             SysLog,
+            [Description("طبقه بندی محصولات")]
+            ProductCategory,
         }
 
-        public static string GetAddAlert(Entity entity)
+        public static string GetInsertAlert(Entity entity)
         {
             return $"{entity.GetDescription()} با موفقیت ثبت گردید";
         }
-        public static string GetRemoveAlert(Entity entity)
+        public static string GetDeleteAlert(Entity entity)
         {
             return $"{entity.GetDescription()} با موفقیت حذف گردید";
         }
-        public static string GetEditAlert(Entity entity)
+        public static string GetUpdateAlert(Entity entity)
         {
             return $"{entity.GetDescription()} با موفقیت بروزرسانی گردید";
         }

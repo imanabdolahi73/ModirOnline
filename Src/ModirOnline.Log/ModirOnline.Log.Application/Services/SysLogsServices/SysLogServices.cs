@@ -35,7 +35,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                 {
                     IsSuccess = true,
                     StatusCode = (int)HttpStatusCode.Created,
-                    Message=Alert.GetAddAlert(Alert.Entity.SysLog)
+                    Message=Alert.GetInsertAlert(Alert.Entity.SysLog)
                 };
             }
             catch (Exception)
@@ -63,7 +63,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     {
                         IsSuccess = true,
                         StatusCode = (int)HttpStatusCode.NoContent,
-                        Message = Alert.GetRemoveAlert(Alert.Entity.SysLog)
+                        Message = Alert.GetDeleteAlert(Alert.Entity.SysLog)
                     };
                 }
                 throw new Exception();
@@ -102,7 +102,7 @@ namespace ModirOnline.Log.Application.Services.SysLogsServices
                     {
                         IsSuccess = true,
                         StatusCode = (int)HttpStatusCode.NoContent,
-                        Message = Alert.GetRemoveAlert(Alert.Entity.SysLog),
+                        Message = Alert.GetDeleteAlert(Alert.Entity.SysLog),
                     };
                 }
                 throw new Exception();
